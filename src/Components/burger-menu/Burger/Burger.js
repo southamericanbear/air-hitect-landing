@@ -10,7 +10,11 @@ const Burger = ({ open, setOpen }) => {
         <div></div>
         <div></div>
       </StyledBurger>
-      <span style={{ fontFamily: "Lato, sans-serif" }}>menu</span>
+      <span
+        style={{ fontFamily: "Lato, sans-serif", color: "var(--darkPurple)" }}
+      >
+        menu
+      </span>
     </div>
   );
 };

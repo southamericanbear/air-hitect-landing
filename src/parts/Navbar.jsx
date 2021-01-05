@@ -18,7 +18,13 @@ export default function Navbar() {
       <img style={{ marginLeft: "50px" }} src={logo} alt="air hitect logo" />
       <div className="contact">
         <img src={circles} alt="" />
-        <span style={{ fontFamily: "Lato, sans-serif", marginLeft: "5px" }}>
+        <span
+          style={{
+            fontFamily: "Lato, sans-serif",
+            marginLeft: "5px",
+            color: "var(--darkPurple)",
+          }}
+        >
           contact
         </span>
       </div>

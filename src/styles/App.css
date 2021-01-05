@@ -5,8 +5,11 @@
 :root {
   --lato: "Lato", sans-serif;
   --martelSans: "Martel Sans", sans-serif;
-  --purple: rgb(83, 35, 83);
-  --secondaryPurple: rgba(68, 4, 68, 0.671);
+
+  --ultraLightPurple: #eae6eb;
+  --white: #ffffff;
+  --darkPurple: #443d5b;
+  --superSoftWhite: #f4f2f5;
 }
 
 html,

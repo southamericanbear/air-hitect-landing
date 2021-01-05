@@ -16,7 +16,7 @@ export const StyledBurger = styled.button`
     margin: 5px 100px 5px 5px;
     width: 1rem;
     height: 0.15rem;
-    background: black;
+    background: var(--darkPurple);
     border-radius: 10px;
     transition: all 0.3s linear;
     position: relative;
