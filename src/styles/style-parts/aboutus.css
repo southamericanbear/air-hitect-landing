@@ -58,3 +58,36 @@ main span {
   text-align: start;
   margin: 10px;
 }
+
+@media (max-width: 710px) {
+  .about-us {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+  }
+  .title-about-us {
+    margin-left: 5px;
+    width: 130px;
+  }
+  .title-about-us span {
+    font-size: 1.5rem;
+  }
+  .line-about-us {
+    display: none;
+  }
+  main {
+    align-self: center;
+    width: 90%;
+    justify-content: center;
+  }
+  main p {
+    justify-self: center;
+    margin: 10px auto;
+    font-size: 1.3rem;
+  }
+  .p-container {
+    flex-direction: column;
+    margin: 0;
+    width: 90%;
+  }
+}
