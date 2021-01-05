@@ -1,5 +1,6 @@
 @import "./style-parts/home.css";
 @import "./style-parts/navbar.css";
+@import "./style-parts/aboutus.css";
 @import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&family=Martel+Sans:wght@200;300;400;600;700;800;900&display=swap");
 
 :root {
@@ -10,6 +11,7 @@
   --white: #ffffff;
   --darkPurple: #443d5b;
   --superSoftWhite: #f4f2f5;
+  --unnamed-color-ebebeb: #ebebeb;
 }
 
 html,

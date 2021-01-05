@@ -1,0 +1,60 @@
+.about-us {
+  border: solid 5px transparent;
+  height: 100vh;
+  background-color: var(--ultraLightPurple);
+}
+
+.title-about-us {
+  margin-top: 60px;
+  margin-left: 25px;
+  background-color: var(--white);
+  width: 150px;
+  padding: 5px 15px;
+}
+
+.title-about-us span {
+  font-weight: 700;
+  font-size: 1.8rem;
+  font-family: var(--lato);
+  color: var(--darkPurple);
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line-about-us {
+  width: 20%;
+  height: 1.5px;
+  background-color: var(--darkPurple);
+}
+
+main p {
+  font-size: 1.5rem;
+  font-family: var(--martelSans);
+  font-weight: 400;
+  color: var(--darkPurple);
+  text-align: center;
+  margin: 1% 30%;
+}
+
+main span {
+  font-weight: 700;
+}
+
+.p-container {
+  margin-top: 50px;
+  width: 60%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+.p-container p {
+  font-size: 0.8rem;
+  text-align: start;
+  margin: 10px;
+}
