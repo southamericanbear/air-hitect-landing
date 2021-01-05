@@ -30,6 +30,15 @@
 }
 
 @media (max-width: 500px) {
+  .navbar {
+    justify-content: flex-start;
+    padding: 10px 0px 0px 10px;
+  }
+
+  .burger-menu {
+    padding-right: 0px;
+  }
+
   .burger-menu span {
     display: none;
   }

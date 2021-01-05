@@ -22,6 +22,10 @@ export const StyledBurger = styled.button`
     position: relative;
     transform-origin: -2.5px;
 
+    @media (max-width: 500px) {
+      margin: 5px 0px 5px 7px;
+    }
+
     :first-child {
       transform: ${({ open }) => (open ? "rotate(45deg)" : "rotate(0)")};
     }

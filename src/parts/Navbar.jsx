@@ -15,7 +15,7 @@ export default function Navbar() {
         <Burger open={open} setOpen={setOpen} />
         <Menu open={open} setOpen={setOpen} />
       </div>
-      <img src={logo} alt="air hitect logo" />
+      <img style={{ marginLeft: "50px" }} src={logo} alt="air hitect logo" />
       <div className="contact">
         <img src={circles} alt="" />
         <span style={{ fontFamily: "Lato, sans-serif", marginLeft: "5px" }}>
